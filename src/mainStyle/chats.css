@@ -1,0 +1,153 @@
+
+
+.chats-active {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.userChat {
+    display: flex;
+    align-items: center;
+    height: 60px;
+    margin: 5px 0px;
+    padding: 10px 0px 10px 7px ;
+    border-bottom: 1px solid #0f1828;
+    border-top: 1px solid #0f1828;
+    background-color: #152033;
+}
+
+.userChatInfo {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin-left: 7px;
+}
+
+.user-chat-text {
+    color: #68707c;
+    overflow-wrap: break-word;
+}
+
+.chat,
+.chats {
+    display: none;
+}
+
+.back-button {
+    background-color: #0f1828;
+    border: none;
+}
+
+.arrow-left {
+    width: 30px;
+    height: 40px;
+}
+
+.chat-info {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    background-color: #0f1828;
+}
+
+.chat-active {
+    height: 98vh;
+}
+
+.select-user-name {
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.messages {
+    display: flex;
+    flex-direction: column;
+    height: calc(100% - 145px);
+    padding: 10px;
+    background-color: #152033;
+    overflow: scroll;
+}
+
+.message {
+    display: flex;
+    margin: 15px 0px;
+
+}
+
+.messageContent {
+   max-width: 70%;
+}
+
+.my-message {
+    flex-direction: row-reverse;
+}
+
+.my-message 
+.messageContent {
+    background-color: #375fff;
+    padding: 5px;
+    margin-right: 10px;
+    border-radius: 10px 0px 10px 10px;
+}
+
+.owner-message 
+.messageContent {
+    align-items: flex-end;
+    background-color: #0f1828;
+    padding: 5px;
+    margin-right: 10px;
+    border-radius: 0px 10px 10px 10px;
+}
+
+.message-text {
+    overflow-wrap: break-word;
+    margin: 5px;
+}
+
+.down-user-photo {
+    width: 70%;
+}
+
+.input {
+    display: flex;
+    padding: 10px 0px;
+    background-color: #0f1828;
+}
+
+.message-input {
+    height: 30px;
+    width: 100%;
+    color: white;
+    background-color: #152033;
+    border: none;
+    outline: none;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.send {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #0f1828;
+}
+
+.message-icon {
+    width: 30px;
+    height: 30px;
+}
+
+.paperclipIcon {
+    width: 30px;
+    height: 30px;
+    margin: 0px 10px 0px 5px;
+}
+
+.send-button {
+    padding: 0px;
+    height: 35px;
+    background-color: #0f1828;
+    border: none;
+    margin-right: 12px;
+}

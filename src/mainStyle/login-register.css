@@ -1,0 +1,78 @@
+.login-page {
+    width: 100%;
+}
+
+.log-reg-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.log-reg-page-title {
+    font-size: 50px;
+}
+
+.login-page-form {
+    margin-top: 20px;
+    width: 100%;
+}
+
+.login-form,
+.register-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-title {
+    font-size: 20px;
+}
+
+.input-form {
+    margin: 10px 0px;
+    width: 85%;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #152033;
+    border: none;
+    outline: none;
+    color: #f7f7fc;
+}
+
+.button-form {
+    margin-top: 30px;
+    border: none;
+    height: 35px;
+    width: 85%;
+    border-radius: 30px;
+    color: #f7f7fc;
+    background-color: #375fff;
+}
+
+.log-reg-page-link {
+    margin-top: 15px;
+}
+
+.link-register {
+    color: #f7f7fc;
+    margin-left: 6px;
+}
+
+.add-img-avatar {
+    height: 40px;
+    width: 40px;
+}
+
+.label-add-avatar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.add-img-description {
+    margin-left: 6px;
+}
